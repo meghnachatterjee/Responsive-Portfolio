@@ -272,18 +272,20 @@ input[type=submit] {
     float:none;
   }
   .sidebar {
-    margin-left:40px;
-    margin-right:40px;
-    float:left;}
+  
+    float:left;
+    width:100%;
+    max-width:650px;}
 }
-
-
-
 
 
 /* Width at 640px and below */
 @media screen and (max-width: 640px){
  
+
+  .main-section{
+    width:620px;
+  }
 
   .auth-image{
     float:none;
@@ -292,11 +294,21 @@ input[type=submit] {
   
   }
   .sidebar {
-    margin-left:40px;
-    margin-right:40px;
-    float:left;}
+   
+    float:left;
+    width:100%;
+    max-width:620px;}
 
     .work{
       float:none;
+    }
+
+    #logo{
+      width:100%;
+    }
+
+    nav{
+      float:none;
+      text-align:center;
     }
 }
