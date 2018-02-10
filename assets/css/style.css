@@ -272,3 +272,19 @@ input[type=submit] {
     margin-right:40px;
     float:left;}
 }
+
+/* Width at 768px and below */
+@media screen and (max-width: 640px){
+ 
+
+  .auth-image{
+    float:none;
+    width:100%;
+    height:auto;
+  
+  }
+  .sidebar {
+    margin-left:40px;
+    margin-right:40px;
+    float:left;}
+}
