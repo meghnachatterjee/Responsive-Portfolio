@@ -257,6 +257,10 @@ input[type=submit] {
  .sidebar {
     margin-right:5px;
   }
+  .work{
+    float:none;
+  }
+  
 
 }
 
@@ -273,7 +277,11 @@ input[type=submit] {
     float:left;}
 }
 
-/* Width at 768px and below */
+
+
+
+
+/* Width at 640px and below */
 @media screen and (max-width: 640px){
  
 
@@ -287,4 +295,8 @@ input[type=submit] {
     margin-left:40px;
     margin-right:40px;
     float:left;}
+
+    .work{
+      float:none;
+    }
 }
